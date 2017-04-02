@@ -26,6 +26,9 @@
 				<configuration>
         <testFailureIgnore>true</testFailureIgnore>
     </configuration>
+    <configuration>
+        <forkMode>never</forkMode>
+      </configuration>
 			</configuration>
 			
 	</plugin>
