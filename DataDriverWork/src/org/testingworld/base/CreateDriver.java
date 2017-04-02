@@ -22,22 +22,10 @@ public class CreateDriver {
 	@BeforeMethod
 	public void initiateWebdriver()
 	{
-		ResourceBundle config= ResourceBundle.getBundle("Config");
-		if(config.getString("browserName").equalsIgnoreCase("firefox"))
-		{
-			System.setProperty("webdriver.gecko.driver", "./Driver/geckodriver.exe");
-			driver = new FirefoxDriver();
-		}
-		else if(config.getString("browserName").equalsIgnoreCase("chrome"))
-		{
+		
 			System.setProperty("webdriver.chrome.driver", "./Driver/chromedriver.exe");
 			driver = new ChromeDriver();
-		}
-		else
-		{
-			driver = new InternetExplorerDriver();
-		}
-		driver.get(config.getString("applicationURL"));
+			driver.get("https://www.facebook.com");
 	}
 	
 	
