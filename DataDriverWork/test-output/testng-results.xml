@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="70061" started-at="2017-04-02T06:20:59Z" finished-at="2017-04-02T06:22:09Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="70061" started-at="2017-04-02T06:20:59Z" finished-at="2017-04-02T06:22:09Z">
+      <class name="org.hcl.testcases.TC_001_Login_Logout_Positive_Credentials">
+        <test-method status="PASS" signature="initiateWebdriver()[pri:0, instance:org.hcl.testcases.TC_001_Login_Logout_Positive_Credentials@7c30a502]" name="initiateWebdriver" is-config="true" duration-ms="15408" started-at="2017-04-02T11:51:02Z" finished-at="2017-04-02T11:51:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initiateWebdriver -->
+        <test-method status="PASS" signature="tc_001(java.lang.String, java.lang.String)[pri:0, instance:org.hcl.testcases.TC_001_Login_Logout_Positive_Credentials@7c30a502]" name="tc_001" duration-ms="407" started-at="2017-04-02T11:51:17Z" data-provider="dp2" finished-at="2017-04-02T11:51:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[uname1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[uname1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc_001 -->
+        <test-method status="PASS" signature="dropDriverObject()[pri:0, instance:org.hcl.testcases.TC_001_Login_Logout_Positive_Credentials@7c30a502]" name="dropDriverObject" is-config="true" duration-ms="1" started-at="2017-04-02T11:51:18Z" finished-at="2017-04-02T11:51:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dropDriverObject -->
+        <test-method status="PASS" signature="initiateWebdriver()[pri:0, instance:org.hcl.testcases.TC_001_Login_Logout_Positive_Credentials@7c30a502]" name="initiateWebdriver" is-config="true" duration-ms="14968" started-at="2017-04-02T11:51:18Z" finished-at="2017-04-02T11:51:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initiateWebdriver -->
+        <test-method status="PASS" signature="tc_001(java.lang.String, java.lang.String)[pri:0, instance:org.hcl.testcases.TC_001_Login_Logout_Positive_Credentials@7c30a502]" name="tc_001" duration-ms="1246" started-at="2017-04-02T11:51:33Z" data-provider="dp2" finished-at="2017-04-02T11:51:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[uname2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[uname2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc_001 -->
+        <test-method status="PASS" signature="dropDriverObject()[pri:0, instance:org.hcl.testcases.TC_001_Login_Logout_Positive_Credentials@7c30a502]" name="dropDriverObject" is-config="true" duration-ms="0" started-at="2017-04-02T11:51:34Z" finished-at="2017-04-02T11:51:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dropDriverObject -->
+        <test-method status="PASS" signature="initiateWebdriver()[pri:0, instance:org.hcl.testcases.TC_001_Login_Logout_Positive_Credentials@7c30a502]" name="initiateWebdriver" is-config="true" duration-ms="16856" started-at="2017-04-02T11:51:34Z" finished-at="2017-04-02T11:51:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initiateWebdriver -->
+        <test-method status="PASS" signature="tc_001(java.lang.String, java.lang.String)[pri:0, instance:org.hcl.testcases.TC_001_Login_Logout_Positive_Credentials@7c30a502]" name="tc_001" duration-ms="1524" started-at="2017-04-02T11:51:51Z" data-provider="dp2" finished-at="2017-04-02T11:51:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[uname3]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[uname3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc_001 -->
+        <test-method status="PASS" signature="dropDriverObject()[pri:0, instance:org.hcl.testcases.TC_001_Login_Logout_Positive_Credentials@7c30a502]" name="dropDriverObject" is-config="true" duration-ms="1" started-at="2017-04-02T11:51:52Z" finished-at="2017-04-02T11:51:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dropDriverObject -->
+        <test-method status="PASS" signature="initiateWebdriver()[pri:0, instance:org.hcl.testcases.TC_001_Login_Logout_Positive_Credentials@7c30a502]" name="initiateWebdriver" is-config="true" duration-ms="15975" started-at="2017-04-02T11:51:52Z" finished-at="2017-04-02T11:52:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initiateWebdriver -->
+        <test-method status="PASS" signature="tc_001(java.lang.String, java.lang.String)[pri:0, instance:org.hcl.testcases.TC_001_Login_Logout_Positive_Credentials@7c30a502]" name="tc_001" duration-ms="1244" started-at="2017-04-02T11:52:08Z" data-provider="dp2" finished-at="2017-04-02T11:52:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[uname4]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[uname4]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc_001 -->
+        <test-method status="PASS" signature="dropDriverObject()[pri:0, instance:org.hcl.testcases.TC_001_Login_Logout_Positive_Credentials@7c30a502]" name="dropDriverObject" is-config="true" duration-ms="0" started-at="2017-04-02T11:52:09Z" finished-at="2017-04-02T11:52:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dropDriverObject -->
+      </class> <!-- org.hcl.testcases.TC_001_Login_Logout_Positive_Credentials -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
