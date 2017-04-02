@@ -23,7 +23,11 @@
 				<!-- TestNG suite XML files -->
 					<suiteXmlFile>testng.xml</suiteXmlFile>
 				</suiteXmlFiles>
+				<configuration>
+        <testFailureIgnore>true</testFailureIgnore>
+    </configuration>
 			</configuration>
+			
 	</plugin>
     </plugins>
   </build>
