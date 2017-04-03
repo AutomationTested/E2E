@@ -24,11 +24,11 @@
 					<suiteXmlFile>testng.xml</suiteXmlFile>
 				</suiteXmlFiles>
 				<configuration>
-        <testFailureIgnore>true</testFailureIgnore>
-    </configuration>
-    <configuration>
-        <forkMode>never</forkMode>
-      </configuration>
+	                <skipTests>false</skipTests>
+	                <testFailureIgnore>true</testFailureIgnore>
+	                <forkMode>once</forkMode>
+	             </configuration>
+               
 			</configuration>
 			
 	</plugin>
